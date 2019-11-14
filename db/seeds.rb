@@ -1,4 +1,5 @@
 Garden.destroy_all if Rails.env.development?
+Tag.destroy_all if Rails.env.development?
 
 little = Garden.create!(
   name: "My Little Garden",
@@ -27,3 +28,9 @@ Plant.create!(
   img_url: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/dieffenbachia.jpg",
   garden: other
 )
+
+names = %w(fruit\ tree cactus ferns conifers flowers)
+
+names.each do |name|
+  Tag.create(name: name)
+end

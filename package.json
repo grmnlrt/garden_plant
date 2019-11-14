@@ -2,7 +2,10 @@
   "name": "garden_plant",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "^4.2.0",
     "bootstrap": "^4.3.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack-dev-server": "^3.9.0"
+  }
 }

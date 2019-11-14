@@ -30,6 +30,7 @@ gem 'turbolinks', '~> 5'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
+gem 'webpacker'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
